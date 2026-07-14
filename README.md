@@ -23,4 +23,40 @@ The assistant automatically classifies incoming emails, determines whether a rep
 - JSON
 - AI Prompt Engineering
 
+  ## 🔄 Workflow
+
+```text
+Incoming Email
+       │
+       ▼
+ Gmail Trigger
+       │
+       ▼
+OpenAI Analysis
+       │
+       ▼
+Classify Email
+(Category + Priority)
+       │
+       ▼
+Should Reply?
+   │          │
+   │Yes       │No
+   ▼          ▼
+Generate    Ignore
+ Reply      (Spam)
+   │
+   ▼
+Send via Gmail
+```
+
+The workflow automatically:
+
+1. Receives a new email from Gmail.
+2. Sends the content to OpenAI.
+3. Detects language, category and priority.
+4. Decides whether the email requires a reply.
+5. Generates a professional response.
+6. Sends the reply back through Gmail.
+
 ---
