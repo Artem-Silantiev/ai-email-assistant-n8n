@@ -59,4 +59,50 @@ The workflow automatically:
 5. Generates a professional response.
 6. Sends the reply back through Gmail.
 
+7. ## 📸 Screenshots
+
+### Workflow Overview
+
+The complete automation workflow built in n8n.
+
+![Workflow](images/workflow-overview.png)
+
+---
+
+### Incoming Emails
+
+Example emails used to test the assistant.
+
+![Input Emails](images/input-emails.png)
+
+---
+
+### AI Decision
+
+OpenAI returns structured JSON including:
+
+- Category
+- Priority
+- Summary
+- Reply
+- should_reply
+
+![AI Decision](images/should-reply.png)
+
+---
+
+### Generated Reply
+
+Professional AI-generated response ready to be sent.
+
+![Generated Reply](images/generated-reply.png)
+
+---
+
+### Final Result
+
+The assistant automatically replies only to relevant emails while ignoring spam.
+
+![Output Emails](images/output-emails.png)
+
 ---
