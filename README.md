@@ -105,4 +105,27 @@ The assistant automatically replies only to relevant emails while ignoring spam.
 
 ![Output Emails](images/output-emails.png)
 
+## 🚀 Future Improvements
+
+- Gmail labels based on AI classification
+- Google Sheets logging
+- Human approval mode
+- RAG with company knowledge base
+- CRM integration
+- Calendar integration
+- Multi-agent architecture
+- Support for file attachments
+
+  ## 📥 Import Workflow
+
+1. Download the workflow JSON file.
+2. Import it into n8n.
+3. Configure your Gmail credentials.
+4. Configure your OpenAI API credentials.
+5. Activate the workflow.
+
+  ## 📄 License
+
+This project is licensed under the MIT License. 
+
 ---
